@@ -1,25 +1,23 @@
 # CalculadoraTeste
 ## Descrição
-Testes feitos com um código de calculadora simples em Java juntamente com a ferramenta Junit para a tratativa e validação da estrutura. 
+Testes feitos com um código de calculadora simples em Java, tratando de forma unitária, testes das Operações Aritméticas Fundamentais. 
 
 ## Mecânicas
 A Calculadora gerada tem as classes de cada função (Soma, Subtração, Multiplicação e Divisão), e a calculadora, onde são feitos os cálculos em questão, misturando números Inteiros Positivos, Negativos e Zero.
 
-As classes que indicam o cálculo que cada função efetua foram criadas separadamente, conforme abaixo:
+Os testes unitários foram feitos com os seguintes padrões:
 
-![image](https://github.com/gaakoury/CalculadoraTeste/assets/114704606/f20ff09b-6d85-44b5-b866-df877f1bb850)
+- Operação com dois números Inteiros Positivos;
+- Operação com um número Inteiro Positivo e um Zero;
+- Operação com dois Zeros;
+- Operação com um número Inteiro Positivo e um número Inteiro Negativo;
+- Operação com dois números Inteiros Negativos;
+- Operação com um número Inteiro Negativo e um Zero.
 
-Um exemplo do conteúdo delas:
+Conforme segue o exemplo de somas abaixo:
 
-![image](https://github.com/gaakoury/CalculadoraTeste/assets/114704606/b695bb4d-f1df-4283-924b-e31a28d0afad)
+![image](https://github.com/gaakoury/CalculadoraTeste/assets/114704606/ef64fff1-6210-4300-8fb1-58aeffbfa110)
 
-Para os teste com a biblioteca Junit, o padrão utilizado foi o seguinte:
-
-![image](https://github.com/gaakoury/CalculadoraTeste/assets/114704606/cc9aeaff-b249-4873-9743-c1fb0de818a4)
-
-E para a tratativa de Divisão por Zero (que é inválida), foi usado o ArithmeticException, para a tratativa da invalidez do cálculo:
-
-![image](https://github.com/gaakoury/CalculadoraTeste/assets/114704606/34eaf0ff-82d2-4ed0-9c04-66e1bae16c92)
 
 
 ## Última atualização 21/09/2023
